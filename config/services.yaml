@@ -1,0 +1,6 @@
+services:
+  App\EventListener\PageStateEventListener:
+    tags:
+      - { name: kernel.event_subscriber }
+
+# other service definitions or parameters...
